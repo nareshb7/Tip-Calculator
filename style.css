@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to bottom right, #1030e3,#8492e3);
+    background-size: 100vw 100vh;
+}
+form, h3 {
+    text-align: center;
+    margin: 10px;
+
+}
+input {
+    padding: 5px;
+}
+form button{
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 7px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+form button:hover{
+    background-color: #797c8c;
+}
